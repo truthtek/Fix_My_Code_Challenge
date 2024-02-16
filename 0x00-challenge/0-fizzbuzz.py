@@ -20,3 +20,6 @@ def fizzbuzz(n):
         else:
             tmp_result.append(str(i))
     print(" ".join(tmp_result))
+
+# Example usage
+fizzbuzz(15)
