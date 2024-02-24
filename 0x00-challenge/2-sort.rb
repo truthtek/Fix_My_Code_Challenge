@@ -4,6 +4,8 @@
 #
 ###
 
+# Sort integer arguments (ascending)
+
 result = []
 ARGV.each do |arg|
     # skip if not integer
@@ -27,4 +29,5 @@ ARGV.each do |arg|
     end
     result << i_arg if !is_inserted
 end
+
 puts result
